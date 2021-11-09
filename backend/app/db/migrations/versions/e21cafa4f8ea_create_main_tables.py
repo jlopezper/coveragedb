@@ -1,8 +1,8 @@
 """create_main_tables
 
-Revision ID: d8dd20d10d36
+Revision ID: e21cafa4f8ea
 Revises: 
-Create Date: 2021-11-08 16:04:04.112774
+Create Date: 2021-11-09 12:10:11.690877
 
 """
 from alembic import op
@@ -10,11 +10,12 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic
-revision = 'd8dd20d10d36'
+revision = 'e21cafa4f8ea'
 down_revision = None
 branch_labels = None
 depends_on = None
 table_name = "coveragedb"
+
 
 def create_table(table_name) -> None:
     op.create_table(
